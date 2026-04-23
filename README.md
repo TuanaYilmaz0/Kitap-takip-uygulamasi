@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Kitap App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Kitap App, ReactJS ile gelistirilmis bir frontend kitap takip uygulamasidir. Bu uygulama sayesinde kullanicilar okuduklari kitaplari, almak istedikleri kitaplari ve favori yazarlarini duzenli bir sekilde takip edebilir.
 
-## Available Scripts
+## Proje Amaci
 
-In the project directory, you can run:
+Bu proje, web gelistirme egitimi kapsaminda modern JavaScript kutuphanelerinden biri kullanilarak hazirlanmistir. Amaç, React component yapisini ogrenmek, state mantigini kullanmak ve temel CRUD islemlerini frontend tarafinda uygulamaktir.
 
-### `npm start`
+## Kullanilan Teknolojiler
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ReactJS
+- JavaScript
+- HTML5
+- CSS3
+- Bootstrap 5
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Ozellikler
 
-### `npm test`
+- Kitap ekleme
+- Kitap listeleme
+- Kitap guncelleme
+- Kitap silme
+- Okudugum kitaplar bolumu
+- Almak istedigim kitaplar bolumu
+- Favori yazarlar bolumu
+- Responsive ve modern arayuz tasarimi
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Proje Yapisi
 
-### `npm run build`
+Proje dosya yapisinda asagidaki klasorler kullanilmistir:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `Components`
+- `Pages`
+- `Interfaces`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Sayfa Icerigi
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Uygulama icerisinde:
+- Kullanici yeni kitap ekleyebilir
+- Var olan kitap bilgilerini guncelleyebilir
+- Kitaplari listede goruntuleyebilir
+- Kitaplari listeden silebilir
+- Favori yazarlarini ayri bir bolumde inceleyebilir
 
-### `npm run eject`
+## Kurulum
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Projeyi calistirmak icin terminalde asagidaki komutlari kullanabilirsiniz:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install
+npm start
